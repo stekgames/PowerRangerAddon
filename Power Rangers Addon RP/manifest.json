@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"StekDev"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.15"
+			]
+		}
+	},
+	"header": {
+		"name": "Power Rangers Addon",
+		"description": "thanks for downloading the addon",
+		"min_engine_version": [
+			1,
+			20,
+			70
+		],
+		"uuid": "93666fda-805b-4af3-a57e-414e8e7a2467",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "ca62935c-cae5-49e9-9c7d-f0a05bb54f7f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "be3ff62a-9a6c-4a9d-9daf-0fb2720bbd3a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

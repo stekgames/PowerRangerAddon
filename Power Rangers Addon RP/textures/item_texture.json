@@ -1,0 +1,83 @@
+{
+	"resource_pack_name": "Power Rangers Addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"forca_animal_black":{
+			"textures": [
+				"textures/items/forca_animal/forca_animal_black"
+			]
+		},
+		"forca_animal_blue":{
+			"textures": [
+				"textures/items/forca_animal/forca_animal_blue"
+			]
+		},
+		"forca_animal_red":{
+			"textures": [
+				"textures/items/forca_animal/forca_animal_red"
+			]
+		},
+		"forca_animal_white":{
+			"textures": [
+				"textures/items/forca_animal/forca_animal_white"
+			]
+		},
+		"forca_animal_yellow":{
+			"textures": [
+				"textures/items/forca_animal/forca_animal_yellow"
+			]
+		},
+		// dino trovão
+		"dino_trovao_black":{
+			"textures": [
+				"textures/items/dino_trovao/dino_trovao_black"
+			]
+		},
+		"dino_trovao_blue":{
+			"textures": [
+				"textures/items/dino_trovao/dino_trovao_blue"
+			]
+		},
+		"dino_trovao_red":{
+			"textures": [
+				"textures/items/dino_trovao/dino_trovao_red"
+			]
+		},
+		"dino_trovao_white":{
+			"textures": [
+				"textures/items/dino_trovao/dino_trovao_white"
+			]
+		},
+		"dino_trovao_yellow":{
+			"textures": [
+				"textures/items/dino_trovao/dino_trovao_yellow"
+			]
+		},
+		// dino charge
+		"dino_charge_black":{
+			"textures": [
+				"textures/items/dino_charge/dino_charge_black"
+			]
+		},
+		"dino_charge_blue":{
+			"textures": [
+				"textures/items/dino_charge/dino_charge_blue"
+			]
+		},
+		"dino_charge_red":{
+			"textures": [
+				"textures/items/dino_charge/dino_charge_red"
+			]
+		},
+		"dino_charge_green":{
+			"textures": [
+				"textures/items/dino_charge/dino_charge_green"
+			]
+		},
+		"dino_charge_pink":{
+			"textures": [
+				"textures/items/dino_charge/dino_charge_pink"
+			]
+		}
+	}
+}

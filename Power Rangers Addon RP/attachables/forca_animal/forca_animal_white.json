@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "stek:forca_animal_white_ranger",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/forca_animal/white"
+            },
+            "geometry": {
+                "default": "geometry.forca_animal_white",
+                "first": "geometry.forca_animal_white_first"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.base": "!c.is_first_person"
+                },
+                {
+                    "controller.render.base_first": "c.is_first_person"
+                }
+            ]
+        }
+    }
+}

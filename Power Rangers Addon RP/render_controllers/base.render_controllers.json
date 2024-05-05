@@ -1,0 +1,38 @@
+{
+    "format_version": "1.20.41",
+    "render_controllers": {
+        "controller.render.base": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ]
+        },
+        "controller.render.base_first": {
+            "geometry": "Geometry.first",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ]
+        },
+        "controller.render.item": {
+            "geometry": "Geometry.nd",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.nd"
+            ]
+        }
+    }
+}

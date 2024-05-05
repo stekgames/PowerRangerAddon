@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "stek:dino_charge_black_ranger",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/dino_charge/black"
+            },
+            "geometry": {
+                "default": "geometry.dino_charge_black",
+                "first": "geometry.dino_charge_black_first"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.item": "q.is_item_name_any('slot.weapon.mainhand', stek:dino_charge_black)"
+                },
+                {
+                    "controller.render.base": "!c.is_first_person"
+                },
+                {
+                    "controller.render.base_first": "c.is_first_person"
+                }
+            ]
+        }
+    }
+}

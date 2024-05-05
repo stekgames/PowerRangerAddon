@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "stek:forca_animal_yellow_morphers",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "forca_animal_yellow"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Morpher Yellow"
+            },
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            }
+        }
+    }
+}

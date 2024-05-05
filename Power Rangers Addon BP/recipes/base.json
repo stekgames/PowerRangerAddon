@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "stek:base"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "IDI",
+            "DRD",
+            "IDI"
+        ],
+        "key": {
+            "I": {
+                "item": "minecraft:iron_ingot"
+            },
+            "D": {
+                "item": "minecraft:diamond"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "stek:base",
+            "count": 1
+        }
+    }
+}

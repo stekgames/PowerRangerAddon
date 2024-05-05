@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "stek:forca_animal_black_ranger",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/forca_animal/black"
+            },
+            "geometry": {
+                "default": "geometry.forca_animal_black",
+                "first": "geometry.forca_animal_black_first"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.item": "q.is_item_name_any('slot.weapon.mainhand', stek:forca_animal_black)"
+                },
+                {
+                    "controller.render.base": "!c.is_first_person"
+                },
+                {
+                    "controller.render.base_first": "c.is_first_person"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "stek:dino_charge_blue_ranger",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/dino_charge/blue"
+            },
+            "geometry": {
+                "default": "geometry.dino_charge_blue",
+                "first": "geometry.dino_charge_blue_first"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.base": "!c.is_first_person"
+                },
+                {
+                    "controller.render.base_first": "c.is_first_person"
+                }
+            ]
+        }
+    }
+}

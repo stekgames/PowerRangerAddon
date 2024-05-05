@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"StekDev"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.15"
+			]
+		}
+	},
+	"header": {
+		"name": "Power Rangers Addon",
+		"description": "thanks for downloading the addon",
+		"min_engine_version": [
+			1,
+			20,
+			70
+		],
+		"uuid": "be3ff62a-9a6c-4a9d-9daf-0fb2720bbd3a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "00c97a42-6041-4f8d-8d13-6fc9adcd44d3",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "93666fda-805b-4af3-a57e-414e8e7a2467",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.9.0"
+		}
+	]
+}
